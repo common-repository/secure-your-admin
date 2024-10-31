@@ -1,0 +1,101 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Secure your admin\n"
+"POT-Creation-Date: 2016-09-15 13:08+0100\n"
+"PO-Revision-Date: 2016-09-15 13:09+0100\n"
+"Last-Translator: \n"
+"Language-Team: k2klettern <eric@zeidan.es>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.1\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr_e\n"
+"Language: es_ES\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: inc/class_suadm.php:66
+msgid "Settings"
+msgstr "Ajustes"
+
+#: inc/optionssuadm.php:7
+msgid "You are not authorized to view this page."
+msgstr "No estas autorizado a ver esta página."
+
+#: inc/optionssuadm.php:27
+msgid "settings saved."
+msgstr "opciones guardadas."
+
+#: inc/optionssuadm.php:31
+msgid "Error - Url does not seems to be correct."
+msgstr "Error - La Url no parece estar correcta."
+
+#: inc/optionssuadm.php:39
+msgid "Secure your Admin"
+msgstr "Asegure su administración"
+
+#: inc/optionssuadm.php:40
+msgid ""
+"This plugin is intended to add an extra security feature for your wp-admin "
+"and wp-login.php with an extra hash that you will pass inside your URL, you "
+"can set this word hier and how you will ask for it,\n"
+"                    For Example, i want to have the word <b>letmein</b> and "
+"the pass <b>thesecondnameofmymother</b>, so i will set them bellow and once "
+"i want to enter in my admin i have to use <b>http://miwebsite.com/wp-admin?"
+"letmein=thesecondnameofmymother</b> otherwise the system will\n"
+"                    not show you the login page, it will be redirected "
+"directly to the home of your website"
+msgstr ""
+"Este plugin esta pensado para añadir una seguridad extra a tu wp-admin y wp-"
+"login.php con una clave adicional ue deberas incluir en tu URL, tu puedes "
+"establecer esa palabra aquí y el resultado de la llamada,\n"
+"    \t\t    Por Ejemplo, si quisiera que la palabra <b>dejameentrar</b> y la "
+"contraseña <b>elsegundonombredemimadre</b>, colocándolos en los campos de "
+"abajo los usaría para entrar en mi admin de la siguiente manera <b>http://"
+"mipaginaweb.com/wp-admin?dejameentrar=elsegundonombredemimadre</b> de lo "
+"contrario el sistema\n"
+"                    no me mostrará la página de fogueo y me redireccionara "
+"al home de tu página web"
+
+#: inc/optionssuadm.php:49
+msgid "Check this button to habilitate the security hash"
+msgstr "Activa este botón para habilitar la seguridad por hash"
+
+#: inc/optionssuadm.php:51
+msgid "Introduce your id and hash to be included as an option on your wp-admin"
+msgstr ""
+"Introduce tu Id y Hash para ser incluidos como opciones a tu wp-admin url"
+
+#: inc/optionssuadm.php:52
+msgid "Set the Variable Name"
+msgstr "Establece tu Nombre de variable (id)"
+
+#: inc/optionssuadm.php:54
+msgid "Set the Hash"
+msgstr "Establece el Hash"
+
+#: inc/optionssuadm.php:55
+msgid "You have set a hash, if you doesn't remember you can change it here"
+msgstr "Ya has establecido un has, si no lo recuerdas lo puedes cambiar aquí"
+
+#: inc/optionssuadm.php:56
+msgid ""
+"Pls. ensure to use a Variablename and a hash you will easy remember, "
+"otherwise you will be not allowed to enter your admin login page"
+msgstr ""
+"Por favor, asegurase de usar un nombre de variable y contraseña fácil de "
+"recordar, de lo contrario no podrás entrar en tu admin login"
+
+#: inc/optionssuadm.php:59
+msgid "Save Changes"
+msgstr "Guardar Cambios"
+
+#: inc/optionssuadm.php:62
+msgid ""
+"<b>REMEMBER:</b> next time you log-in you have to include in your URL wp-"
+"admin<b><i>?yourvariablename=yourhashname</i></b>"
+msgstr ""
+"<b>RECUERDA:</b> la próxima vez que entres debes incluir en tu URL wp-"
+"admin<b><i>?tuvariable=tuhash</i></b>"

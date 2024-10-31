@@ -1,0 +1,17 @@
+/* Cursors */
+
+span.showpadres {
+    cursor: pointer!important;
+}
+
+span.fpexpand {
+    cursor: pointer!important;
+}
+
+span.deleteitemfp  {
+    cursor: pointer!important;
+}
+
+span#newscb  {
+    cursor: pointer!important;
+}
